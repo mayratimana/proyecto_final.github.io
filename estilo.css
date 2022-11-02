@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/*CSS Document*/
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.redessociales {
+    position: relative;
+}
+.icon-redes-header {
+    width: 30px;
+    margin: 10px 5px;
+}
+
+#row-amigas img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+/*Estudios*/
+.estudios_grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.estudios_item {
+    width: 90%;
+    margin: 0 auto;
+    background: #e5dde6;
+    box-shadow: 0 8px 10px rgba(66, 66, 66, .5);
+    border-radius: 7px;
+    padding: 30px 20px 30px 15px;
+    color: black;
+    margin-bottom: 30px;
+}
+.estudios_image {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.estudios_img {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-right: 30px;
+}
+.estudios_name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.estudios_concept {
+    color: black;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Footer*/
+.pie {
+    background: #c0a0c3;
+    padding-top: 10px;
+}
+
+.redes {
+    padding-left: 100px;
+}
+.icon-redes-header2 {
+    width: 30px;
+}
+span {
+    font-size: 10px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.sectionb {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+.sectionb div{
+    display: flex;
+    flex-direction: column;
+}
+div h2 {
+    color: white;
+    padding: 10px 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.derechos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #8f7193;
+    color: white;
+}
+#form1 {
+    width: 10%;
+    font-size: 16px;
+}
+#enviar {
+    margin-left: 60px;
+    width: 110px;
+    height: 30px;
+}
